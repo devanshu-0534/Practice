@@ -23,3 +23,4 @@ function array12(arr, n) {
   return count + array12(arr, n - 1);
 }
 console.log(array12([1, 3, 11, 11, 2], 5));
+
